@@ -24,6 +24,9 @@ angular.module('MyApp', ['ngCookies', 'ngResource', 'ngMessages', 'ngRoute', 'mg
             .when('/add', {
                 templateUrl: 'views/add.html',
                 controller: 'AddCtrl'
+            }).when('/courses', {
+                templateUrl: 'views/courses.html',
+                controller: 'CoursesCtrl'
             })
             .otherwise({
                 redirectTo: '/'
